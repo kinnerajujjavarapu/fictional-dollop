@@ -1,0 +1,31 @@
+Steps to execute the code:
+1. Run the given C program.
+2. Enter any account number from the give atm.txt file and then enter the
+corresponding pin for the various options to appear in the console.
+3. Press 1 for checking the savings account balance corresponding to your
+account.
+4. Press 2 for checking the current account balance corresponding to your
+account.
+5. Press 3 for withdrawing cash from your savings account or current account.
+6. Press 4 for depositing cash into your savings account or current account.
+7. Press 5 for changing your pin. Once changed, the pin is automatically
+updated in the 'atm.txt' file.
+8. Press 6 for transferring money from either your savings account or current to
+the respective account of the beneficiary. You need to enter the account number
+of the beneficiary from the account numbers given in the atm.txt file excluding
+your account number.
+9. Run the C program again for accessing or using another option.
+
+The information in the text files 'atm.txt' and 'users.txt'
+• The files can be edited as per your convenience.
+• Sample information 'users.txt' file:
+Contains the number of users.
+• Sample information in 'atm.txt' file:
+• The information in each line contains the pin, account number, savings
+account balance, current account balance of each user in order.
+• The information:
+pin | account number | savings account balance | current account balance
+Instructions for the text files:
+• Replicate the 2 text files: atm.txt and users.txt.
+• Edit the C program wherever fopen appears in the code. Edit the address
+of the files according to where they are stored in your desktop/laptop.
